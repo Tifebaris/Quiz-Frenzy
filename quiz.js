@@ -59,7 +59,7 @@ function reset() {
 
 function greeting() {
     headerText.innerHTML = ''
-    headerText.innerHTML = 'Hello ' + userName.value + ',Welcome to my quiz app'
+    headerText.innerHTML = 'Hello ' + userName.value + ',Welcome to my quiz frenzy'
     greet.style.display = 'none';
     quiz.style.display = 'block';
     q1Button.style.display = 'block';
@@ -163,7 +163,7 @@ function submitq5() {
     if (score <= 3) {
 headerText.innerHTML =   'Ooops! ' + userName.value  + 'Your score is ' + score;
 } else  {
-headerText.innerHTML = 'Well done' + userName.value + '! ' + 'Your score is ' + score;
+headerText.innerHTML = 'Welldone ' + userName.value + '! ' + 'Your score is ' + score;
 }
 
 
