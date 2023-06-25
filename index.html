@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Frenzy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="intro"> 
+    <h1>Welcome to the Quiz Frenzy! Show off your knowledge and have a blast. Good luck and enjoy!</h1> 
+    <h2 class="headerText">What is your name?</h2>
+   </div>
+
+   <div class="greeting">
+    <input class="inputName" type="text" id="userName"> <br> <br>
+    <button onclick="greeting()">Submit</button>
+   </div>
+
+   <div class="quiz">
+    <h3 class="question"></h3>
+   <div class="opt">
+    <div class="answerA" onclick="aFunction()"> </div>
+    <div class="answerB" onclick="bFunction()">   </div>
+    <div class="answerC" onclick="cFunction()">   </div>
+    <div class="answerD" onclick="dFunction()">
+    </div> <br>
+   </div>
+
+     <div class="submitq1" onclick="submitq1()"><button>Submit</button></div>
+     <div class="submitq2" onclick="submitq2()"><button>Submit</button></div>
+     <div class="submitq3" onclick="submitq3()"><button>Submit</button></div>
+     <div class="submitq4" onclick="submitq4()"><button>Submit</button></div>
+     <div class="submitq5" onclick="submitq5()"><button>Submit</button></div>
+   </div>
+
+
+  
+
+
+
+</body>
+<script src="quiz.js"></script>
+</html>

@@ -1,0 +1,95 @@
+
+body{
+    background: #73BBC9;
+
+}
+.intro{
+    text-align: center;
+    color: #001C30;
+}
+.greeting{
+    text-align: center;
+    color: #DAFFFB;
+}
+.headerText{
+    color: #fff;
+
+}
+.quiz{
+    text-align: center;
+    color: #fff;
+}
+
+.opt{
+    color: floralwhite;
+    width: 400px;
+    margin: auto;
+    
+}
+
+.answerA{
+    background-color: #fff ;
+    color: #176B87;
+    border: solid 2px #001C30;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.answerB{
+    background-color: #fff ;
+    color: #176B87;
+    border: solid 2px #001C30;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.answerC{
+    background-color: #fff ;
+    color: #176B87;
+    border: solid 2px #001C30;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.answerD{
+    background-color: #fff ;
+    color: #176B87;
+    border: solid 2px #001C30;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button{
+    background: #001C30;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inputName{
+    height: 20px;
+    width: 200px;
+}
+
+
+
+
+</style>
